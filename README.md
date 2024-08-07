@@ -30,15 +30,21 @@ To start all components, open three separate terminal windows and run the follow
 
 4.1)Admin
 Bash
+
 cd admin
+
 npm run dev
 
 4.2)Frontend
 Bash
+
 cd frontend
+
 npm run dev
 
 4.3)Backend
 Bash
+
 cd backend
+
 nodemon index.js

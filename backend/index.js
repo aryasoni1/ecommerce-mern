@@ -12,7 +12,7 @@ app.use(express.json());
 
 //database connection with mongodb
 mongoose.connect(
-  "mongodb+srv://ecommerceMern:user123@cluster0.b3qvvkm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+  "mongodb+srv://< databasename:username@hostnameofatlascluster >/?retryWrites=true&w=majority&appName=Cluster0"
 );
 //Api creation
 app.get("/", (req, res) => {
